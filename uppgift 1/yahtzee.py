@@ -4,6 +4,7 @@ def roll_dice():
     return [random.randint(1,6) for _ in range(5)]
 
 def is_yahtzee(dice):
+    # Check if all dice have the same value
     return len(set(dice)) == 1
 
 def play_game():
