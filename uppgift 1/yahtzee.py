@@ -17,4 +17,8 @@ def play_game():
         if roll_count == 3:
             print("Game over")
             break
-        
+
+        choice = input("Do you want play again?: (y/n)")
+
+        if choice != "y":
+            break 
