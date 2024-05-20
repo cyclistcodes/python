@@ -22,3 +22,6 @@ def play_game():
 
         if choice != "y":
             break 
+
+if __name__ == "__main__":
+    play_game()
