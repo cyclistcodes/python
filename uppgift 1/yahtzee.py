@@ -5,3 +5,6 @@ def roll_dice():
 
 def is_yahtzee(dice):
     return len(set(dice)) == 1
+
+def play_game():
+    roll_count = 0
