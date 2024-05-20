@@ -14,3 +14,7 @@ def play_game():
         print("Roll dice: ", dice)
 
         roll_count += 1
+        if roll_count == 3:
+            print("Game over")
+            break
+        
