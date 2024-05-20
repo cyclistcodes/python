@@ -9,7 +9,7 @@ Written by Isaac Skog
 ## How to Play
 
 1. **Starting the Game**
-   - Run the script `yahtzee.py`.
+   - Run the script `python3 yahtzee.py`.
 
 2. **Game Rules**
    - You have 3 rolls to get a Yahtzee (all dice showing the same value).
