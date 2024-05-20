@@ -10,3 +10,6 @@ class YahtzeeGame:
 
     def print_dice(self):
         print("Dice roll: ",self.dice)
+
+    def is_yahtzee(self):
+        return all(die == self.dice[0] for die in self.dice)
