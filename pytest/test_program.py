@@ -1,3 +1,4 @@
+import pytest
 from program import *
 
 def test_area_of_square():
@@ -8,3 +9,4 @@ def test_area_of_square():
 
 def test_add():
     assert add(2,2)==4
+    assert add(0.1,0.2)==pytest.approx(0.3)
