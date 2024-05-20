@@ -1,7 +1,7 @@
 import random 
 
 def roll_dice():
-    return [random.randint(1,6) for _ in range]
+    return [random.randint(1,6) for _ in range(5)]
 
 def is_yahtzee(dice):
     return len(set(dice)) == 1
