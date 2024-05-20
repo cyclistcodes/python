@@ -11,3 +11,6 @@ def play_game():
 
     while True:
         dice = roll_dice()
+        print("Roll dice: ", dice)
+
+        roll_count += 1
