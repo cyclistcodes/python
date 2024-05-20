@@ -8,3 +8,6 @@ def is_yahtzee(dice):
 
 def play_game():
     roll_count = 0
+
+    while True:
+        dice = roll_dice()
