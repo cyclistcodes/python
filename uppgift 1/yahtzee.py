@@ -7,3 +7,6 @@ class YahtzeeGame:
 
     def roll_dice(self):
         self.dice = [random.randint(1,6) for _ in range(5)]
+
+    def print_dice(self):
+        print("Dice roll: ",self.dice)
