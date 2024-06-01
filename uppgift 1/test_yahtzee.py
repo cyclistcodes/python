@@ -9,3 +9,4 @@ def test_roll_dice():
 
 def test_is_yahtzee():
     assert is_yahtzee([6,6,6,6,6]) is True 
+    assert is_yahtzee([6,6,6,6,5]) is False
