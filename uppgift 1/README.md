@@ -1,6 +1,6 @@
 # Yahtzee Game
 
-This Python script simulates a simplified version of the Yahtzee game.
+This Python script simulates a simplified version of the Yahtzee game and have a test too. 
 
 ## Author 
 
@@ -10,7 +10,8 @@ Written by Isaac Skog
 
 1. **Starting the Game**
    - Run the script `python3 yahtzee.py`.
-
+   - Run the test `pytest`.
+   
 2. **Game Rules**
    - You have 3 rolls to get a Yahtzee (all dice showing the same value).
    - After each roll, the dice values will be displayed.
@@ -31,3 +32,4 @@ Written by Isaac Skog
 
 - Ensure you have Python3 installed on your system.
 - Execute `python3 yahtzee.py` in your terminal or command prompt.
+- Execute `pytest` in your terminal or command prompt to run the test. 
